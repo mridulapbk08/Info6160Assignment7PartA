@@ -1,0 +1,46 @@
+    .error {
+        color: red;
+    }
+
+
+    body {
+        background-color: #0074D9; 
+    }
+
+
+    .form-container {
+        width: 300px; 
+        height: 450px;
+        margin-top: 15%;
+        margin-left: 40%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #cacaca;
+    }
+
+
+    h1 {
+        text-align: center;
+    }
+
+    input {
+        width: 70%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin: 5px; 
+    }
+
+    button {
+        padding: 10px;
+        margin: 7px; 
+        margin-left: 25%;
+        width: 50%;
+        background-color: #e15757;
+        align-self: center;
+        color: #01070e;
+    }
+
+    label {
+        font-size: larger;
+    }

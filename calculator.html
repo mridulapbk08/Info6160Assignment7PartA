@@ -1,0 +1,33 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator Page</title>
+        <link rel="stylesheet" type="text/css" href="calculator.css">
+    </head>
+    <body>
+        <div class="calculator-container">
+            <h1>Calculator Page</h1>
+            <span id="welcome-message"></span> 
+            <form id="calculator-form">
+                <div>
+                    <label for="number1">Number 1:</label>
+                    <input type="number" id="number1" name="number1">
+                </div>
+                <div>
+                    <label for="number2">Number 2:</label>
+                    <input type="number" id="number2" name="number2">
+                </div>
+                <div>
+                    <button id="add-btn">Add</button>
+                    <button id="subtract-btn">Subtract</button>
+                    <button id="multiply-btn">Multiply</button>
+                    <button id="divide-btn">Divide</button>
+                </div>
+            </form>
+            <div id="result"></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="calculator.js"></script>
+    </body>
+    </html>
